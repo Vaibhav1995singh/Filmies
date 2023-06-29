@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Series</title>
+    <link rel="icon" type="image/x-icon" href="https://ia902701.us.archive.org/10/items/android-chrome-512x512_202306/favicon.ico">
+</head>
+<body>
+    <h1>Add Series</h1>
+    <form method="POST" action="/add_series">
+        <label for="name">Title:</label>
+        <input type="text" name="name" id="name" required><br><br>
+        
+        <label for="description">Description:</label><br>
+        <textarea name="description" id="description" rows="4" cols="50" required></textarea><br><br>
+        
+        <label for="poster_url">Poster URL:</label>
+        <input type="text" name="poster_url" id="poster_url" required><br><br>
+        
+        <label for="logo_url">Logo URL:</label>
+        <input type="text" name="logo_url" id="logo_url" required><br><br>
+        
+        <label for="genre">Genre:</label>
+        <input type="text" name="genre" id="genre" required><br><br>
+
+        <label for="wood">wood:</label>
+        <input type="text" name="wood" id="wood" required><br><br>
+        
+        <label for="trailer_id">Trailer ID:</label>
+        <input type="text" name="trailer_id" id="trailer_id" required><br><br>
+        
+        <label for="for_kids">For Kids:</label>
+        <input type="checkbox" name="for_kids" id="for_kids"><br><br>
+        
+        <label for="ott_platform">OTT Platform:</label>
+        <input type="text" name="ott_platform" id="ott_platform" required><br><br>
+
+        <label for="beta_version">Beta Version:</label>
+        <input type="checkbox" name="beta_version" id="beta_version"><br><br>
+        
+        <input type="submit" value="Add Series">
+    </form>
+</body>
+</html>
